@@ -1,0 +1,24 @@
+table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    color: antiquewhite;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid rgb(214, 33, 33);
+}
+
+th {
+    background-color: #3fda44;
+    color: rgb(238, 238, 238);
+}
+
+tr:hover {
+    background-color: #327e5e;
+}
+body{
+    background-color: black;
+}

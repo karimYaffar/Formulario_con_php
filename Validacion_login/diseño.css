@@ -1,0 +1,125 @@
+select:valid,
+input:valid {
+  border: double #45a049 2px;
+  background-color: lightgreen;
+  color: #121312;
+}
+
+select{
+  background-color: #121312;
+  color: #ccc;
+  width: 100%;
+  padding: 10px;  
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+input:invalid {
+  
+  color: #fff;
+
+  background-color: rgb(20, 10, 4);
+}
+  label, legend{
+    color: #ccc;
+  }
+
+
+
+    
+
+legend {
+
+    text-align: center;
+}
+
+/* Para ir viendo si se invalida o no  */
+
+body {
+  background-image:url('R.jpeg');
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  
+  .container {
+    padding-left: 25px;
+    max-width: 300px;
+    margin: 0 auto;  /* Espaciado arriba y abajo */
+    padding: 20px;    /* Espaciado a los lados  */ 
+    background-color: rgb(89, 26, 26);
+    border-radius: 5px;
+    /* text-align: left; */
+    opacity: 75%;
+  }
+  .in_container{
+    padding-left: 22%;
+    margin: 0 auto;
+    border-color: #121312;
+    
+
+  }
+
+  
+  h2 {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .form-group {
+    margin-bottom: 15px; /* Espaciado arriba y abajo */
+  }
+  
+  label {
+    display: block;   /* para */
+    font-weight: bold;    /* Para el peso de fuente y negritas   */
+
+    
+  }
+  input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="telefono"],
+input[type="Date"]  {
+  width: 100%;
+  padding: 10px;  
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #121312;
+  color: #fff;
+  border: none;
+  border-radius: 15px;  /* Radio de los bordes  de forma redonda */
+  cursor: pointer;  
+  
+
+}
+
+input[type="submit"]:hover {    /* Estilo cuando el cursor deol maus se situe en el */
+    background-color: #45a049;
+    text-align: center;
+    align-items: center;
+  }
+
+fieldset{
+    text-align: left;
+}
+
+p{
+    text-align: center;
+    color: #fff;
+}
+
+#crear{
+  display: flex;
+  flex-direction: column;
+}
+
+
